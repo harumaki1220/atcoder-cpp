@@ -1,0 +1,32 @@
+# --- C++ 実行ファイルと中間生成物 ---
+*.out
+*.exe
+*.o
+*.obj
+*.dSYM/
+
+# --- 特定の実行ファイル名（a.out, a.exe, abc123_a など） ---
+*
+!*/
+!*.cpp
+!*.hpp
+!*.h
+!*.md
+!*.txt
+!.gitignore
+
+# --- コンテスト支援ツール関連 ---
+# atcoder-cli や online-judge-tools のテストケースフォルダ
+test/
+tests/
+
+# --- エディタ・IDE設定 ---
+.vscode/
+.idea/
+.vs/
+*.swp
+
+# --- 入出力の一時ファイル ---
+# 手動でテストする際の入力・出力用
+in.txt
+out.txt
