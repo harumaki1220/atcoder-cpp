@@ -5,12 +5,15 @@
 *.obj
 *.dSYM/
 
-# --- 特定の実行ファイル名（a.out, a.exe, abc123_a など） ---
+# --- 特定の実行ファイル名 ---
 *
 !*/
 !*.cpp
 !*.hpp
 !*.h
+!*.rs
+!Cargo.toml
+!Cargo.lock
 !*.md
 !*.txt
 !.gitignore
