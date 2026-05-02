@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "abc*",
+]
+exclude = [
+    "abc",
+]
+
+[workspace.dependencies]
+proconio = "0.4.3"
+itertools = "0.11.0"
+num-traits = "0.2.15"

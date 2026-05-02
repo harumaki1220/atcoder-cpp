@@ -1,35 +1,27 @@
-# --- C++ 実行ファイルと中間生成物 ---
+# --- Rust 関連 ---
+target/
+
+# --- C++ 関連 ---
 *.out
 *.exe
 *.o
 *.obj
 *.dSYM/
 
-# --- 特定の実行ファイル名 ---
-*
-!*/
-!*.cpp
-!*.hpp
-!*.h
-!*.rs
-!Cargo.toml
-!Cargo.lock
-!*.md
-!*.txt
-!.gitignore
-
 # --- コンテスト支援ツール関連 ---
-# atcoder-cli や online-judge-tools のテストケースフォルダ
+# テストケースは容量を食うのと、ツールで再取得できるので無視
 test/
 tests/
+.cargo-compete/
 
-# --- エディタ・IDE設定 ---
+# --- エディタ・一時ファイル ---
 .vscode/
 .idea/
 .vs/
 *.swp
-
-# --- 入出力の一時ファイル ---
-# 手動でテストする際の入力・出力用
+*.log
 in.txt
 out.txt
+
+# --- 特定の不要ファイル ---
+template-cargo-lock.toml
