@@ -12,6 +12,7 @@ target/
 # テストケースは容量を食うのと、ツールで再取得できるので無視
 test/
 tests/
+testcases/
 .cargo-compete/
 
 # --- エディタ・一時ファイル ---
